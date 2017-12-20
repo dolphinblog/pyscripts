@@ -3,14 +3,12 @@
 
 '''
 Usage:
-
 ******************************
 python do.py task col database
 ******************************
 task: a text file, list every single task
 col: where the folder name locates in a task line that you want to put the file in.
 database: the file database where you get the specified file.
-
 '''
 
 import sys
