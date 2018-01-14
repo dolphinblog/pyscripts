@@ -1,5 +1,5 @@
-## Some python scripts that are used in daily office work.
+## Some python scripts that are used in affairs.
 
 - Use python3
-- Only personal work record
+- Only personal work/mess-around record
 
