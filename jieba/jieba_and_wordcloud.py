@@ -2,7 +2,7 @@
 
 import jieba
 from wordcloud import WordCloud
-from PIL import Image #install pillow but import PIL stead
+from PIL import Image #install pillow but import PIL instead
 import numpy as np
 
 import matplotlib.pyplot as plt
