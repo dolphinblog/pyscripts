@@ -2,7 +2,7 @@
 
 import jieba
 from wordcloud import WordCloud
-from PIL import Image #install pillow but install PIL
+from PIL import Image #install pillow but import PIL stead
 import numpy as np
 
 import matplotlib.pyplot as plt
@@ -24,7 +24,7 @@ cloud = WordCloud(
 	max_font_size=120
 )
 
-#生存词云图片
+#生成词云图片
 word_cloud = cloud.generate(cut_text)
 word_cloud.to_file('outcome.png') #保存为png要比jpg清楚
 
