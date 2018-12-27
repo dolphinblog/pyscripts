@@ -15,3 +15,4 @@ msg.body = '邮件内容'
 msg.html = '邮件正文，支持html'
 with app.app_context():
     mail.send(msg)
+    
