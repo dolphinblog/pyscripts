@@ -7,7 +7,7 @@ app.config['MAIL_SERVER'] = 'smtp.126.com'
 app.config['MAIL_PORT'] = 25
 app.config['MAIL_USE_TLS'] = True
 
-# Python shell中输入
+# flask shell中输入
 from flask_mail import Message
 from hello import mail
 msg = Message('邮件标题', sender='网易邮箱', recipients=['收件邮箱'])
