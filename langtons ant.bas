@@ -24,7 +24,7 @@ Sub lant()
     cnt = 0
     flag = 0
     maxCnt = 20000
-    sleepTime = 0
+    sleepTime = 200
 
     '清理上次运行痕迹
     ActiveSheet.Columns.clear
@@ -81,9 +81,7 @@ Sub lant()
     Else
         oldAnt.Interior.Pattern = xlNone
     End If
-    
-    sleepTime = 0
-    
+                                        
     Loop While cnt < maxCnt
 
 End Sub
