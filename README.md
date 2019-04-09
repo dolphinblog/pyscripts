@@ -1,5 +1,5 @@
-## Some python scripts that are used in affairs.
+## Some scripts.
 
-- Using python3
+- Using python3 or VBA
 - Only personal work/mess-around record
 
